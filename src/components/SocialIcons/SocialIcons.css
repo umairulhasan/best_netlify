@@ -1,0 +1,14 @@
+.socials {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 40%;
+    background-blend-mode: multiply;
+  }
+  
+  .socicon {
+    width: 2rem;
+    height: 2rem;
+  }
+  

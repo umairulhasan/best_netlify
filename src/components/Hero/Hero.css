@@ -1,0 +1,52 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9.5rem;
+    max-width: 68.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .hero img {
+    height: 29.5rem;
+    width: 29.5rem;
+  }
+  
+  .bio {
+    width: 25rem;
+    padding: 1.1rem;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    text-align: justify;
+  }
+  
+  .bio h1 {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+  .bio p {
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
+  }
+  
+  @media screen and (max-width: 720px) {
+    .hero {
+      margin-top: 0rem;
+      flex-direction: column;
+      gap: 0;
+    }
+  
+    .hero img {
+      height: 22.5rem;
+      width: 30rem;
+    }
+  
+    .bio {
+      margin-top: 0rem;
+      width: 20.5rem;
+    }
+  }
+  
