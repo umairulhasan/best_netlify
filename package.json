@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@stripe/stripe-js": "^1.32.0",
     "babel-plugin-styled-components": "^1.13.3",
     "gatsby": "^4.2.0",
     "gatsby-plugin-gatsby-cloud": "^4.2.0",
@@ -16,6 +17,7 @@
     "gatsby-plugin-styled-components": "^5.2.0",
     "gatsby-source-filesystem": "^4.2.0",
     "gatsby-source-shopify": "^6.10.2",
+    "gatsby-source-stripe": "^4.0.0",
     "gatsby-transformer-sharp": "^4.2.0",
     "isomorphic-fetch": "^3.0.0",
     "prop-types": "^15.7.2",
