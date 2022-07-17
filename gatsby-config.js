@@ -38,5 +38,15 @@ module.exports = {
         storeUrl: process.env.GATSBY_SHOPIFY_STORE_URL,
       },
     },
+
+
+    {
+      resolve: `gatsby-source-stripe`,
+      options: {
+        objects: ["Price"],
+        secretKey: process.env.STRIPE_SECRET_KEY,
+        downloadFiles: false,
+      },
+    },
   ],
 }
