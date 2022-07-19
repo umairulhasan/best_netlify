@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+
 import TextField from '@material-ui/core/TextField';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
@@ -7,7 +7,7 @@ import axios from 'axios';
 
 import Alert from './../alert/index';
 
-import Background from './../../assets/background.jpg';
+import Background from './../../assets/icons/background.jpg';
 import Logo from './logo.png';
 import './Login.css';
 

@@ -9,10 +9,11 @@ const Header = ({ siteTitle }) => (
     <Link to="/" className="site-title">{siteTitle}</Link>
     <LinksWrapper>
     <Link to="/">Home</Link>
-      <Link to="/products">All products and Services</Link>
+      <Link to="/products">All products</Link>
       <Link to="/cart">My Cart</Link>
       <Link to="#about">About</Link>
       <Link to="/Contact">Contact us</Link>
+      <Link to="https://fancy-medovik-86c0e3.netlify.app/">Signin</Link>
       
       
     </LinksWrapper>
@@ -56,6 +57,6 @@ const HeaderWrapper = styled.header`
 `
 const LinksWrapper = styled.div`
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(6, auto);
   gap: 40px;
 `

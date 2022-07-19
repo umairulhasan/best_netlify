@@ -9,6 +9,7 @@ import PrimaryButton from "../components/PrimaryButton"
 import Seo from "../components/seo"
 import Scroll from "../components/Scroll/Scroll"
 import MyProjection from "../components/MyProjects/MyProject"
+
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
@@ -22,10 +23,10 @@ const IndexPage = () => (
     </ContentWrapper>
    
 
-  
+    
     <Hero/>
     <AboutMe />
-   
+ 
     <MyProjection/>
     <SocialIcons />
     <Scroll />
