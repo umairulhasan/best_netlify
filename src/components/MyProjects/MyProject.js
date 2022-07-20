@@ -1,7 +1,7 @@
 import React from "react"
 import "./MyProjects.css"
 //import img1 from "../../assets/images/expenseTracker.png"
-import img2 from "../../assets/icons/netflixClone.png"
+import img2 from "../../assets/icons/pexels-photo-325153.jpeg"
 //import img3 from "../../assets/images/greenyEarth.png"
 
 const MyProjects = () => {
