@@ -10,10 +10,10 @@ const SocialIcons = () => {
   return (
     <>
       <div className="socials">
-        <a href="https://www.facebook.com/White-Zone-110438405015454/" target="_blank">
+        <a href="https://www.facebook.com/Easy-ElecBuy-109352981853037" target="_blank">
           <img src={facebook} alt="Twitter" loading="lazy" className="socicon" />
         </a>
-        <a href="https://www.instagram.com/whitezone046/" target="_blank">
+        <a href="https://www.facebook.com/Easy-ElecBuy-109352981853037" target="_blank">
           <img
             src={Instagram}
             alt="Instagram"
